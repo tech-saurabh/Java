@@ -19,4 +19,9 @@ public class Student {
        this.name = name;  //name used with (this) refers to instance variable
        return true;
     }
+	public ststic void main(String[] args)
+	{
+		Student student1=new Student(1002,"Saurabh");
+	    System.out.println("this is the id : " + student1.id);
+	}
 }
